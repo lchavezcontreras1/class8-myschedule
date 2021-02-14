@@ -56,7 +56,7 @@ function displayMessage(e){
         $("p#event-item7").empty();
     }
     else if(eventVal==="Saturday"){
-        $("p#event-item1").empty();
+        $("p#event-item1").text(`personal time, all day`);
         $("p#event-item2").empty();
         $("p#event-item3").empty();
         $("p#event-item4").empty();
@@ -65,7 +65,7 @@ function displayMessage(e){
         $("p#event-item7").empty();
     }
     else{
-        $("p#event-item1").empty();
+        $("p#event-item1").text(`family time, all day`);
         $("p#event-item2").empty();
         $("p#event-item3").empty();
         $("p#event-item4").empty();
